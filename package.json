@@ -1,0 +1,19 @@
+{
+  "name": "bulma_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
+  },
+  "author": "Sirohana <argentumf7@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "prettier-eslint": "^9.0.0"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}
