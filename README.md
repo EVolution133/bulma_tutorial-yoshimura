@@ -1,2 +1,2 @@
 # bulma_tutorial
-** bulmaの練習用レポジトリです **
+**bulmaの練習用レポジトリです**
