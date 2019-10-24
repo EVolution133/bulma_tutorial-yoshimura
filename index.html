@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Seminar</title>
+    <link rel="stylesheet" href="./assets/styles/common.css" />
   </head>
   <body>
-    <header>
-      <h1>Web Seminar</h1>
-      <ul>
-        <li>メニュー</li>
-        <li>メニュー</li>
-        <li>メニュー</li>
-        <li>メニュー</li>
-      </ul>
+    <header class="navbar  is-fixed-top is-primary">
+      <div class="navbar-brand">
+        <a href="#" class="navbar-item"><h1>Web Seminar</h1></a>
+        <!-- burger toggle -->
+        <a
+          role="button"
+          class="navbar-burger burger"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <!-- /burger toggle -->
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end">
+          <ul class="navbar-item">
+            <a href="#"><li>メニュー</li></a>
+            <a href="#"><li>メニュー</li></a>
+            <a href="#"><li>メニュー</li></a>
+            <a href="#"><li>メニュー</li></a>
+          </ul>
+        </div>
+      </div>
     </header>
     <section id="topview">
       <img
@@ -107,5 +127,7 @@
       </p>
       <small>COPYRIGHT© 2019 WebSeminar CO.,LTD.</small>
     </footer>
+    <!-- script area -->
+    <script src="./assets/scripts/common-dist.js"></script>
   </body>
 </html>
